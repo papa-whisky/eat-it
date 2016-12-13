@@ -6,12 +6,12 @@ const render = (parent, data) => {
   document.querySelectorAll('h2').forEach((element) => {
     element.addEventListener('click', () => console.log('things'))
   })
+
   if (module.hot) {
     module.hot.dispose(function() {
       parent.innerHTML = ''
     })
   }
 }
-
 
 export default render
