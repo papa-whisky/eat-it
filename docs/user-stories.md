@@ -1,0 +1,8 @@
+- As a user I want to see my friends' recent recommendations so I can find somewhere to eat.
+- As a user I want to search for friends so I can see their recommendations.
+- As a user I want to see which of my facebook friends already use EAT IT so I can follow them.
+- As a potential user I want to see info about the app so I can decide whether to sign up.
+- As a potential user I want to sign up so I can use the app.
+- As a user I want to recommend a venue so my friends can try it.
+- As a user I want to login so I can use the app.
+- As a user I want to logout so my account is secure.
