@@ -1,11 +1,15 @@
-$color: mistyrose;
+@import '../../css-partials/variables';
 
 body {
-  background: $color;
+  background: $turquoise-green;
 }
 
 body {
   h2 {
-    color: aquamarine;
+    color: $gunmetal;
+  }
+
+  .purple {
+    color: $buff;
   }
 }

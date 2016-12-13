@@ -6,4 +6,10 @@ const names = [
   { name: "Sheila" }
 ]
 
-document.querySelector('#root').innerHTML = test(names)
+const rootDiv = document.querySelector('#root')
+
+test(rootDiv, names)
+
+if (module.hot) {
+    module.hot.accept();
+}

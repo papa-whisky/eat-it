@@ -21,8 +21,8 @@ module.exports = {
             "modules": false,
           }]],
         },
-      }],
-    }, {
+      },
+    ]}, {
       test: /\.scss$/,
       use: [
         "style-loader",
