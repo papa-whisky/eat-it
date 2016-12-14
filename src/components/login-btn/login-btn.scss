@@ -1,0 +1,19 @@
+.login-btn {
+  width: 75%;
+  background: #4267B2;
+  color: white;
+  border-radius: 3px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+    padding-left: .5em;
+  }
+}
