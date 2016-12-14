@@ -17,6 +17,7 @@
 - DELETE recommendation
 - GET friends' recommendations
 - GET user search results
+- setup production server
 
 ### Client
 - login page
