@@ -5,15 +5,22 @@
   border-radius: 3px;
   margin: 2em auto;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding: none;
+  border: none;
+  outline: none;
 
   img {
     height: 2em;
+    margin-left: .25em;
   }
 
   p {
-    font-size: 1.1em;
+    flex: 1;
     padding-left: .5em;
   }
+}
+
+.login-btn:hover {
+  background: darken(#4267B2, 15%);
 }
