@@ -1,15 +1,10 @@
-import test from './components/test/test'
+import loginPageLayout from './components/login-page-layout/login-page-layout'
+import './global-styles/normalize.scss'
 import './global-styles/main.scss'
 
-// const names = [
-//   { name: "Bob" },
-//   { name: "Gary" },
-//   { name: "Sheila" }
-// ]
+const rootDiv = document.querySelector('#root')
 
-// const rootDiv = document.querySelector('#root')
-
-// test(rootDiv, names)
+loginPageLayout(rootDiv)
 
 if (module.hot) {
   module.hot.accept();

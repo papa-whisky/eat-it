@@ -4,6 +4,7 @@ const compiler = require('webpack')(require('./webpack.config'))
 
 app.use(require('webpack-dev-middleware')(compiler, {}))
 app.use(require('webpack-hot-middleware')(compiler))
+app.use(express.static('dist'))
 
 app.get('*', (req, res) => res.sendFile(__dirname + '/index.html'))
 
