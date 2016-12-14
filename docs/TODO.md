@@ -1,10 +1,10 @@
 ### Design
 - (draw wireframes)
-- database model
+- (database model)
 - (user stories)
 
 ### Server
-- create database
+- (create database)
 - create seed data
 - set up testing framework
 - GET homepage
