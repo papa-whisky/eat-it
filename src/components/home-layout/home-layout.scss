@@ -30,7 +30,7 @@
       justify-content: space-around;
       padding: 0;
       margin: 0;
-      color: lighten($gunmetal, 5%);
+      color: lighten($gunmetal, 25%);
 
       li {
         height: 1.5em;
@@ -41,7 +41,7 @@
       }
 
       :hover {
-        color: lighten($gunmetal, 30%);
+        color: $gunmetal;
         cursor: pointer;
       }
 
@@ -54,9 +54,13 @@
       }
 
       .add-new:hover {
+        color: lighten($gunmetal, 25%);
         background: darken($turquoise-green, 20%);
       }
       
+      .selected {
+        color: $gunmetal;
+      }
     }
   }
 }

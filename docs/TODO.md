@@ -22,7 +22,7 @@
 ### Client
 - (login page layout)
 - (integrate FB login)
-- homepage layout (once logged in)
+- (homepage layout (once logged in))
 - news feed
 - search page
 - add recommendation page
