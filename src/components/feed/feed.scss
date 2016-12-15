@@ -1,0 +1,40 @@
+@import './../../global-styles/variables';
+
+.feed-item {
+  width: 90%;
+  margin: 1em auto;
+  display: flex;
+  height: 8em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $pastel-blue;
+
+  .feature-img {
+    width: 35%;
+    background: center/cover;
+  }
+
+  section {
+    width: 65%;
+    padding-right: 1em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    h2, h3, h4, p {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    h3 {
+      font-size: 1em;
+      flex: 1;
+    }
+
+    h4 {
+      font-size: .9em;
+    }
+  }
+}
