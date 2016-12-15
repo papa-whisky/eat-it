@@ -5,6 +5,7 @@ window.fbAsyncInit = function() {
     version: 'v2.8'
   })
   FB.AppEvents.logPageView()
+  checkLogin()
 }
 
 const fbSdkInit = () => {

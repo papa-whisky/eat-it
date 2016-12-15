@@ -20,7 +20,8 @@
 - setup production server
 
 ### Client
-- login page
+- (login page layout)
+- (integrate FB login)
 - homepage layout (once logged in)
 - news feed
 - search page
