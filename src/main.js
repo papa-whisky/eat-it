@@ -2,7 +2,6 @@ import loginPageLayout from './components/login-page-layout/login-page-layout'
 import homeLayout from './components/home-layout/home-layout'
 import './global-styles/normalize.scss'
 import './global-styles/main.scss'
-// import fbSdkInit from './scripts/fb-sdk'
 
 const rootDiv = document.querySelector('#root')
 
@@ -38,7 +37,6 @@ window.fbAsyncInit = function() {
   js.src = "//connect.facebook.net/en_US/sdk.js"
   fjs.parentNode.insertBefore(js, fjs)
 }(document, 'script', 'facebook-jssdk'))
-
 
 if (module.hot) {
   module.hot.accept();
