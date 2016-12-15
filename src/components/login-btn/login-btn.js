@@ -9,7 +9,7 @@ const addLoginClickListener = () => {
     FB.login((res) => {
       const rootDiv = document.querySelector('#root')
       homeLayout(rootDiv, res.authResponse.userID)
-    })
+    }, { scope: 'email,user_friends' })
   })
 }
 
