@@ -22,7 +22,8 @@ window.fbAsyncInit = function() {
   FB.init({
     appId: '362664850778148',
     xfbml: true,
-    version: 'v2.8'
+    version: 'v2.8',
+    cookie: true
   })
   FB.AppEvents.logPageView()
   checkLogin()
