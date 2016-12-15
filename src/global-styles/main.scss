@@ -1,5 +1,14 @@
 @import 'variables';
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666; 
+}
 
 * {
   box-sizing: border-box;

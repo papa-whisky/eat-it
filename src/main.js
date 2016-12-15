@@ -39,5 +39,5 @@ window.fbAsyncInit = function() {
 }(document, 'script', 'facebook-jssdk'))
 
 if (module.hot) {
-  module.hot.accept();
+  module.hot.accept()
 }

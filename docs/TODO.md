@@ -26,3 +26,10 @@
 - news feed
 - search page
 - add recommendation page
+
+### Deployment
+- 
+
+### Misc
+- add favicon
+- add logo to FB app dashboard

@@ -1,8 +1,8 @@
 import template from './home-layout.pug'
 import './home-layout.scss'
 
-const render = (parent, fbID) => {
-  parent.innerHTML = template({  fbID: fbID  })
+const render = (parent) => {
+  parent.innerHTML = template()
 
   if (module.hot) {
     module.hot.dispose(function() {
